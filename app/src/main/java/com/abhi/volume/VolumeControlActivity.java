@@ -20,6 +20,10 @@ public class VolumeControlActivity extends Activity {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         getWindow().setBackgroundDrawableResource(android.R.color.transparent);
 
+        if (getIntent().getAction() != null && getIntent().getAction().equals("android.intent.action.VIEW")) {
+            openVolumeControl();
+        }
+
         // Open the volume control
         openVolumeControl();
     }

@@ -1,3 +1,5 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">Volume</string>
+    <string name="shortcut_label">Shortcut Label</string>
+    <string name="longer_shortcut_label">Longer Shortcut Label</string>
 </resources>
